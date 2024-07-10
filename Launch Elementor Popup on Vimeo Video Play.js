@@ -1,4 +1,6 @@
 <script>
+// Be sure to load "<script src="https://player.vimeo.com/api/player.js"></script>" in the head too.
+
 jQuery(document).ready(function($) {
     var buttonClicked = localStorage.getItem('popupShown') === 'true';
 
